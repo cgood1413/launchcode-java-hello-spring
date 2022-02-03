@@ -19,7 +19,7 @@ public class HelloSpringController {
     }
 
     @GetMapping("form")
-    public String helloForm()
+    public String helloForm(){
         return "<html>" +
                 "<body>" +
                     "<form action='hello' method='post'>" +
